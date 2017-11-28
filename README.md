@@ -58,8 +58,45 @@
 + java.util 实用类
 + java.sql 操作数据库的类
 + java.net 实现网络功能的类
-+ *引入全部类
++ 引入全部类
 + private 友好 protected public
++ final声明的类不能被继承，声明的变量为常量
++ 上转型对象
++ 继承和多态
++ abstract定义抽象类
++ 开闭原则
++ 静态方法属于类，不可重写，非静态方法属于类的实例，可重写
++ interface 接口体中所有常量的访问权限一定是public,并且是static常量,所有方法的访问权限为public
++ implements 声明实现接口
++ 内部类和外嵌类
++ throws 声明要产生的异常 throw 抛出异常
++ try catch finally
++ assert 断言语句
+## String类
++ 可用字符数组的数组名构造String对象
++ .length()
++ .equals()
++ .startsWith()
++ .compareTo()
++ .contains()
++ .substring()
++ .trim()
++ .valueOf()
++ .toString()
++ .getChars()
++ .toCharArray()
+## 正则表达式
++ replaceAll返回一个新对象
++ split
+## StringTokenizer
++ nextToken()
++ hasMoreTokens()
++ countTokens()
+## Scanner
++ next()
++ hasNext()
+
+
 
 
 
