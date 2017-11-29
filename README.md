@@ -95,7 +95,95 @@
 ## Scanner
 + next()
 + hasNext()
-
+## StringBuffer
++ append()
++ length()
++ capacity()
++ charAt()
++ setCharAt()
++ insert()
++ reverse()
++ delete()
++ replace()
+## Date
+## Calendar
++ roll()
++ get()
++ set()
++ String对象的format格式化时间，也可用于格式化数字
+## Math
++ random 产生一个0到1之间的随机数，不包括0，1
++ ceil 向上取整，返回一个double型数据
++ floor 向下取整，返回一个double型数据
++ round 四舍五入，返回一个整数
+## BigInteger
++ add()
++ subtract()
++ multiply()
++ divide()
++ remainder() 求余
++ compareTo()
++ abs()
++ pow()
++ toString()
+## Random
++ nextInt()
++ nextBoolean()
+## Class类
+## Console类
++ readPassword()
+## Pattern
++ complie()
++ matcher()
+## Matcher
++ find()  类似js中的lastIndex
++ start()
++ end()
++ group()
++ matches()  判断regex与input是否完全匹配
++ replaceAll()
++ replaceFirst() 只替换查找到的第一个
+## runtime
++ freeMemory()
++ totalMemory()
++ getRuntime()
++ exec()
+## File
++ getName()
++ canRead()
++ canWrite()
++ exists()
++ length() 单位是字节
++ getAbsolutePath()
++ getParent()
++ isFile()
++ isDirectory()
++ isHidden()
++ lastModified()  最后修改时间
++ mkdir() 创建一个目录
++ list() 返回当前目录下的所有文件，返回字符串数组  可以传入FilenameFilter,返回指定的后缀
++ listFiles() 返回files数组
++ delete()
+## FileInputStream
++ read()
++ close()
+## FileOutputStream
++ 构造函数的append参数，if true 写入文件追加到原文件后面，else false 原文件被刷新
++ write()
++ close()
+## FileReader, FileWriter
++ 先把数据写到缓冲区，每当缓冲区溢出，溢出的数据被自动写入到目的地，可用flush()清洗缓冲区
+## BufferedReader, BufferedWriter
++ readLine() 读入一行
++ newLine() 写入一个换行符
+## 随机流 RandomAccessFile
++ 构造函数参数 mode r只读，rw可读写
++ 不刷新文件
++ colse, read, write
++ getFilePointer() 获取当前读写位置
++ seek 定位读写位置
+## 数组流
+## 数据流
 
 
 
